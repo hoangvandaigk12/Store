@@ -46,7 +46,7 @@ public class LoginServlet extends HttpServlet {
             AccountDAO dao = new AccountDAO();
             AccountDTO dto = dao.checkLogin(username, password);
             if(dto != null) {
-                url = "searchpage";
+                url = "search";
                 HttpSession session = request.getSession();
                 session.setAttribute("ACCOUNT", dto);
             }
