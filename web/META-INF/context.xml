@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Filter">
+    <Resource name="Filter" type="javax.sql.DataSource" auth="Container"
+     driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+     url="jdbc:sqlserver://localhost:1433;databaseName=FU"
+     username="sa" password="21031999"/>
+</Context>
